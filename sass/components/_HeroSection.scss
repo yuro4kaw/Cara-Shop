@@ -1,25 +1,24 @@
-#hero{
-    background-image: url("../img/hero4.png");
-    height: 90vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top 25% right 0;
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
+#hero {
+  background-image: url("../img/hero4.png");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 
-#hero h4{
+  h4 {
     padding-bottom: 15px;
-}
+  }
 
-#hero h1{
-    color:var(--cyan);
-}
+  h1 {
+    color: var(--cyan);
+  }
 
-#hero button{
+  button {
     background-image: url("../img/button.png");
     background-color: transparent;
     color: var(--cyan);
@@ -29,4 +28,5 @@
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+  }
 }
